@@ -27,7 +27,7 @@ gnd     gnd
 */
 
 /*initiations*/
-LSM303 compass; //lsm303 sensor 8, 4, 7, 5, 6)
+LSM303 compass;
 Adafruit_PCD8544 display = Adafruit_PCD8544(8, 4, 5, 7, 6); //nokia display
 
 int r = 24;  // radius of compass rose
